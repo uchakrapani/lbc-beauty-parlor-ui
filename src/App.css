@@ -9,13 +9,13 @@
 body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  background-color: #f1f1f1;
+  background-color: #f4f6f9;  /* Lighter background for a more professional look */
 }
 
 /* Sidebar Styling */
 .side-menu {
   position: fixed;
-  background-color: #f05642;
+  background-color: #2c3e50;  /* Dark blue color for a more professional sidebar */
   width: 20vw; /* Sidebar width */
   min-height: 100vh;
   display: flex;
@@ -31,7 +31,7 @@ body {
   height: 10vh;
   text-align: center;
   padding: 20px 0;
-  background-color: #f05642;
+  background-color: #2c3e50;  /* Dark blue color for the brand header */
 }
 
 .side-menu .brand-name h1 {
@@ -64,8 +64,8 @@ ul {
 }
 
 .side-menu li:hover {
-  background-color: #fff;
-  color: #f05642;
+  background-color: #34495e;  /* Darker shade on hover */
+  color: #fff;
 }
 
 .side-menu li a {
@@ -88,7 +88,7 @@ ul {
   right: 0;
   width: 80vw;
   height: 100vh;
-  background: #f1f1f1;
+  background: #f4f6f9;  /* Lighter background to match the body */
   margin-left: 20vw;
 }
 
@@ -134,7 +134,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f05642;
+  background-color: #007bff;  /* Change to a blue accent */
   color: white;
   border-radius: 50%;
   margin-left: 10px;
@@ -162,7 +162,7 @@ ul {
 
 .notification .icon {
   font-size: 24px;
-  color: #f05642;
+  color: #007bff;  /* Blue accent color for notifications */
 }
 
 .notification .count {
@@ -217,7 +217,7 @@ ul {
   text-align: center;
   padding: 8px;
   margin-top: 10px;
-  background-color: #f05642;
+  background-color: #007bff;  /* Blue accent for "View All" */
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -264,7 +264,7 @@ ul {
 }
 
 .dropdown-menu li:hover {
-  background-color: #f05642;
+  background-color: #007bff;  /* Blue accent color on hover */
   color: white;
 }
 
